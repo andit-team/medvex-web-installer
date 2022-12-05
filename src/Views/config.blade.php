@@ -49,7 +49,7 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <label for="DatabaseName">{{__('Database Name')}}</label>
-                  <input type="text" class="form-control" id="DatabaseName" name="db_name" value="{{ env('DB_DATABASE') }}" placeholder="{{__('zai_news')}}" />
+                  <input type="text" class="form-control" id="DatabaseName" name="db_name" value="{{ env('DB_DATABASE') }}" placeholder="{{__('database')}}" />
                 </div>
               </div>
               <div class="col-md-6">
@@ -78,7 +78,7 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <label for="MailUsername">{{__('Username')}}</label>
-                  <input type="text" class="form-control" id="MailUsername" name="mail_username" value="{{ env('MAIL_USERNAME') }}" placeholder="{{__('zai_news')}}" />
+                  <input type="text" class="form-control" id="MailUsername" name="mail_username" value="{{ env('MAIL_USERNAME') }}" placeholder="{{__('username')}}" />
                 </div>
               </div>
               <div class="col-md-6">
